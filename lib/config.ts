@@ -7,9 +7,19 @@ export const CREATE_SESSION_ENDPOINT = "/api/create-session";
 
 export const STARTER_PROMPTS: StartScreenPrompt[] = [
   {
-    label: "What can you do?",
-    prompt: "What can you do?",
+    label: "How do I export a survey?",
+    prompt: "How do I export a survey?",
     icon: "circle-question",
+  },
+  {
+    label: "What is in the data dictionary?",
+    prompt: "What is in the data dictionary?",
+    icon: "book-open",
+  },
+  {
+    label: "Where are my canvassing results?",
+    prompt: "Where are my canvassing results?",
+    icon: "maps",
   },
 ];
 
